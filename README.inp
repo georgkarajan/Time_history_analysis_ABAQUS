@@ -1,0 +1,10 @@
+Filename contains a model of a RC concrete pipe rack that supports several pipelines.
+The straight pipes are modelled with beam elements and the pipe bends (elbows) with a specific
+pipe elements included in ABAQUS database (elbow 32).
+
+*************************************************************************************************
+- To run an a time-history analysis, simply double-click on the "OPEN ABAQUS" bat file and open the filename from ABAQUS.
+
+- To run a bunch of analyses, you may use the "batch" file; however, you need to create several input files and copy-paste
+the first two lines included in "batch" file. 
+ 
